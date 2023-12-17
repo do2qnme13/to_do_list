@@ -105,7 +105,7 @@ form {
 .todo-list {
   --spacer: 2rem;
 
-
+  position: relative;
   grid-area: activeList;
   background-color: var(--clr-light);
   color: var(--clr-dark);
@@ -210,7 +210,7 @@ form {
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: -100px;
+  bottom: -35px;
   color: var(--clr-light);
 }
 
